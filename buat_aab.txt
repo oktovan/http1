@@ -1,0 +1,5 @@
+keytool -genkey -v -keystore ~/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key
+for: CN=oktovan rezman, OU=pt lintas digital indonesia, O=www.prune.id, L=bekasi, ST=jawa barat, C=id
+[Storing /home/okto/key.jks]
+pass: ra..inthebestformat
+

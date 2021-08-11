@@ -1,4 +1,4 @@
-package com.example.http1
+package id.prune.http1
 
 import io.flutter.embedding.android.FlutterActivity
 
