@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import './pages/diagnosa.dart';
+import './pages/show_dialog2.dart';
+//import './pages/diagnosa.dart';
 //import './pages/template.dart';
 //import 'dart:dart:async';
 //import 'package:provider/provider.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Diagnosa(),
+      home: ShowDialog2(),
       // home: ChangeNotifierProvider(
       //   create: (context) => HttpProvider(),
       //   child: HomeProvider(),
