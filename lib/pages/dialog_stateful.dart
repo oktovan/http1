@@ -9,10 +9,11 @@ class DialogStateful extends StatefulWidget {
 
 class _DialogStatefulState extends State<DialogStateful> {
   //HttpStateful dataResponse = HttpStateful();
-  //@override
-  //Widget build(BuildContext context) {
-  //  return Scaffold();
-  //}
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+
   @override
   void initState() {
     super.initState();
@@ -24,4 +25,6 @@ class _DialogStatefulState extends State<DialogStateful> {
   _ifLoaded() async {
     showAlertDialog(context);
   }
+
+  showAlertDialog(context) {}
 }
